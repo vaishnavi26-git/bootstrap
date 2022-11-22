@@ -40,7 +40,9 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png"  height="30",width="41"></a>
+        <a class="navbar-brand mr-auto" href="#"
+          ><img src="img/logo.png" height="30" ,width="41"
+        /></a>
         <div class="collapse navbar-collapse" id="Navbar">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
@@ -81,6 +83,9 @@
           <div class="col-12 col-sm align-self-center">
             <img src="img/logo.png" alt="" class="img-fluid" />
           </div>
+          <div class="col-12 col-sm align-self-center">
+            <button type="button" class="btn btn-warning btn-lg btn-block ">Reserve Table</button>
+          </div>
         </div>
       </div>
     </header>
@@ -91,19 +96,24 @@
           <h3>Our Lipsmacking Culinary Creations</h3>
         </div>
         <div class="col col-sm order-sm-first col-md">
-            <div class="media">
-                <img src="img/uthappizza.png" alt="uthappizza" class="d-flex mr-3 img-thumbnail align-self-center">
-                <div class="media-body">
-                    <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span></h2>
-                    <p class="d-none d-sm-block">
-                      A unique combination of Indian Uthappam (pancake) and Italian pizza,
-                      topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia
-                      onion, Guntur chillies and Buffalo Paneer.
-                    </p>
-    
-                </div>
+          <div class="media">
+            <img
+              src="img/uthappizza.png"
+              alt="uthappizza"
+              class="d-flex mr-3 img-thumbnail align-self-center"
+            />
+            <div class="media-body">
+              <h2 class="mt-0">
+                Uthappizza <span class="badge badge-danger">HOT</span>
+                <span class="badge badge-pill badge-secondary">$4.99</span>
+              </h2>
+              <p class="d-none d-sm-block">
+                A unique combination of Indian Uthappam (pancake) and Italian
+                pizza, topped with Cerignola olives, ripe vine cherry tomatoes,
+                Vidalia onion, Guntur chillies and Buffalo Paneer.
+              </p>
             </div>
-
+          </div>
         </div>
       </div>
 
@@ -112,13 +122,23 @@
           <h3>This Month's Promotions</h3>
         </div>
         <div class="col col-sm col-md">
-          <h2>Weekend Grand Buffet</h2>
-          <p class="d-none d-sm-block">
-            Featuring mouthwatering combinations with a choice of five different
-            salads, six enticing appetizers, six main entrees and five choicest
-            desserts. Free flowing bubbly and soft drinks. All for just $19.99
-            per person
-          </p>
+          <div class="media">
+            <div class="media-body">
+              <h2>Weekend Grand Buffet <span class="badge badge-danger">New</span></h2>
+              <p class="d-none d-sm-block">
+                Featuring mouthwatering combinations with a choice of five
+                different salads, six enticing appetizers, six main entrees and
+                five choicest desserts. Free flowing bubbly and soft drinks. All
+                for just $19.99 per person
+              </p>
+            </div>
+            <img
+            src="img/buffet.png"
+            alt="buffet"
+            class="d-flex ml-2 img-thumbnail align-self-center"
+          />
+
+          </div>
         </div>
       </div>
 
@@ -127,21 +147,48 @@
           <h3>Meet our Culinary Specialists</h3>
         </div>
         <div class="col col-sm order-sm-first col-md">
-            <div class="media">
-                <img src="img/alberto.png" alt="alberto" class="d-flex mr-3 img-thumbnail align-self-center">
-                <div class="media-body">
-                    <h2>Alberto Somayya</h2>
-                    <h4>Executive Chef</h4>
-                    <p class="d-none d-sm-block">
-                      Award winning three-star Michelin chef with wide International
-                      experience having worked closely with whos-who in the culinary
-                      world, he specializes in creating mouthwatering Indo-Italian fusion
-                      experiences.
-                    </p>
-              
-                </div>
+          <div class="media">
+            <img
+              src="img/alberto.png"
+              alt="alberto"
+              class="d-flex mr-3 img-thumbnail align-self-center"
+            />
+            <div class="media-body">
+              <h2>Alberto Somayya</h2>
+              <h4>Executive Chef</h4>
+              <p class="d-none d-sm-block">
+                Award winning three-star Michelin chef with wide International
+                experience having worked closely with whos-who in the culinary
+                world, he specializes in creating mouthwatering Indo-Italian
+                fusion experiences.
+              </p>
             </div>
- 
+          </div>
+        </div>
+      </div>
+      <div class="row row-content align-self-center">
+        <div class="col-8">
+          <div class="card">
+            <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+          </div>
+          <div class="card-body">
+            <div>
+              <form>
+                <div class="form-group row">
+                  <label for="guestno" class="col-md-2 col-form-label"
+                    ><strong>Number of Guests</strong>
+                  </label>
+                </div>
+                <div class="form-group row">
+                  <label for="datetime" class="col-md-2 col-form-label"
+                    ><strong>Date and Time</strong>
+                  </label>
+                  <input type="text" />
+                  <input type="text" />
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
