@@ -66,9 +66,13 @@
             </li>
           </ul>
           <span class="navbar-text">
-            <a data-toggle="modal" data-target="#loginModal">
+            <!-- <a data-toggle="modal" data-target="#loginModal">
               <span class="fa fa-sign-in"></span> Login</a
-            >
+            > -->
+            <a id="buttonLogin" type="button" role="button">
+              <span class="fa fa-sign-in"></span> Login</a>
+          </span>
+
           </span>
         </div>
       </div>
@@ -135,7 +139,8 @@
               href="#reserveform"
               >Reserve Table</a
             > -->
-            <a type="button" class="btn btn-warning btn-sm btn-block" data-toggle="modal" data-target="#reservationFormModal" role="button">Reserve Table</a>
+            <!-- <a type="button" class="btn btn-warning btn-sm btn-block" data-toggle="modal" data-target="#reservationFormModal" role="button">Reserve Table</a> -->
+            <a id="buttonReservation" type="button" class="btn btn-warning btn-sm btn-block" role="button">Reserve Table</a>
 
             <!-- <button type="button" class="btn btn-warning btn-lg btn-block ">Reserve Table</button> -->
           </div>
@@ -532,6 +537,17 @@
 
 
       })
+    </script>
+    <script>
+          $("#buttonLogin").click(function(){
+        $('#loginModal').modal('show');
+    });
+
+    </script>
+    <script>
+          $("#buttonReservation").click(function(){
+        $('#reservationFormModal').modal('show');
+    });
     </script>
     <!-- jquery syntax -->
     <!-- <script>
